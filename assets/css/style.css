@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400&display=swap');
+
+html, body { 
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+ }
+
+ h1, h2, h3 , h4 {
+     line-height:1.2rem;
+ }
+
+ p{
+     font-size: 1.25em;
+ }
+
+ h1 { font-size: 2.2rem; }
+ h1, h2, h3, h4 { color: #313f47; }
+
+ a { color:#7db9e5; }
+
+.green { color: #04F78A; }
+.upper{ text-transform: uppercase; }
+.thin { font-weight: 300; }
+.bold { font-weight: 400; }
+.center { text-align: center; }
+
+.status { 
+    border-radius: 5px;
+    background-color: #10CC52; 
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;  
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.status p {
+    line-height: 2.2em;
+    text-transform: uppercase;
+}
+
+.line {
+    width: 100%;
+    height:2px;
+    border-bottom:1px solid #CCC;
+}
+ .c-container {
+    background: #7db9e5; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #7db9e5 12%, #b7f8db 97%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  #7db9e5 12%,#b7f8db 97%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  #7db9e5 12%,#b7f8db 97%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e5', endColorstr='#b7f8db',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    height: 100vh;
+ }
+
+ .c-container__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+.c-image__wrapper {
+    width: 110px;
+    margin: 0 auto;
+    z-index: 999;
+}
+
+.c-image {
+    max-width: 100%;
+    opacity: 0.95;
+    height: auto;
+}
+
+ .card {
+    background-color: #fff8ff;
+    border-radius: 5px;
+    min-width: 450px;
+    margin-top: 20rem;
+    padding: 1.2rem;
+    height: 100%;
+    opacity: 0.95;
+ }
+
+ .card__social {
+     font-size: 0.69em;
+     text-align: center;
+     width: 100%;
+     opacity: 0.95;
+     margin-top: 1.2rem;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .card__social a {
+     color: #7db9e5;
+     transition: color 0.5s ease-in;
+ }
+
+ .card__social a:hover {
+     color: #313f47;
+     transition: color 0.5s ease-in;
+ }
+
+ @media screen and (max-width: 600px) {
+     .card {
+         margin-top: 10em;
+         min-width: 100%;
+     }
+
+     h1, h2, h3, h4 { line-height: 2.2rem; }
+ }
+
+ @media screen and (max-width: 375px) {
+     .card {
+         margin-top: 3.25em;
+     }
+ }
