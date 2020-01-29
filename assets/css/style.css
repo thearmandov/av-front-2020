@@ -104,15 +104,27 @@ html, body {
 
  @media screen and (max-width: 600px) {
      .card {
-         margin-top: 10em;
+         margin-top: 21em;
          min-width: 100%;
      }
 
      h1, h2, h3, h4 { line-height: 2.2rem; }
  }
 
- @media screen and (max-width: 375px) {
+ @media screen and (max-width: 415px) {
+    .card {
+        margin-top: 9.25em;
+    }
+}
+
+ @media screen and (max-width: 360px) {
      .card {
-         margin-top: 3.25em;
+         margin-top: 2em;
      }
  }
+
+ @media screen and (max-width: 320px) {
+    .card {
+        margin-top: 0;
+    }
+}
